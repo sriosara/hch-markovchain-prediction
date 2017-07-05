@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row profile">
+    <div class="col-md-3">
+      <div class="profile-sidebar">
+        <div class="profile-userpic">
+            <img src="/assets/images/doctor01.svg" class="img-responsive">
+        </div>
+
+        <!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">{{doctorName}}</div>
+					<div class="profile-usertitle-job">{{profession}}</div>
+				</div>
+
+        <div class="profile-usermenu">
+          <ul class="nav">
+            <li class="active">
+              <a [routerLink]="['/home']" class="btn btn-link"><i class="fa fa-home"></i> HOME </a>
+            </li>
+            <li class="active">
+              <a [routerLink]="['/mapcamas']" class="btn btn-link"><i class="fa fa-table"></i> MAPA-CAMAS </a>
+            </li>
+            <li class="active">
+              <a [routerLink]="['/dashboard']" class="btn btn-link"><i class="fa fa-bar-chart-o"></i> DASHBOARD</a>
+            </li>
+          </ul>
+        </div>      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+       
+            

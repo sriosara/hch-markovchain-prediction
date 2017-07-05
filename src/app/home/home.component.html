@@ -1,0 +1,17 @@
+  <body>
+    <button (click)="toggleMenu()" class="hamburger">
+      <span>toggle menu</span>
+    </button>
+
+    <div>
+    <router-outlet></router-outlet>
+    </div>
+
+    <app-sidebarmenu [@slideInOut]="menuState"></app-sidebarmenu>
+
+  </body>
+
+  
+
+
+
